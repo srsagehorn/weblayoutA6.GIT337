@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: effra, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.col {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* header */
+header {
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+  color: #5b866b;
+  border-left: #5b866b solid 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: effra, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.active {
+  background-color: #b98c48;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 0;
+}
+/* Design your world */
+.grass {
+  background-image: url(pics/twotrees.jpg);
+  background-size: 100%;
+  height: 800px;
+  text-align: center;
+  color: white;
+}
+
+#design {
+  font-family: effra, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 64px;
+}
+
+#pixel {
+  font-family: kepler-std-display, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 48px;
+}
+
+/* about */
+h3 {
+  font-family: effra, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #524741;
+  text-align: center;
+}
+
+#meet {
+  font-family: effra, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  color: #86765c;
+}
+
+.rightside {
+  display: inline-block;
+}
+
+.leftside {
+  display: inline-block;
+  width: 50%;
+}
+
+.leftside p {
+  margin-right: 30px;
+}
+
+.rightside {
+  margin-left: 30px;
+}
+
+.about img {
+  padding: 5px;
+  height: 160px;
+}
+
+/* portfolio */
+h4 {
+  font-family: effra, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: white;
+}
+
+.portfolio {
+  background-color: #5b866b;
+  text-align: center;
+}
+
+.portimg {
+  margin: 5px;
+}
+
+.top,
+.bottom {
+  display: block;
+}
+
+.leftarr {
+  transform: rotate(-90deg);
+  border-radius: 50%;
+  position: relative;
+  bottom: 40px;
+  left: 30px;
+  height: 50px;
+}
+
+.rightarr {
+  transform: rotate(90deg);
+  border-radius: 50%;
+  position: relative;
+  bottom: 40px;
+  right: 30px;
+  height: 50px;
+}
+
+/* contact */
+h5 {
+  font-family: effra, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #524741;
+}
+
+input {
+  background-color: #ebebeb;
+}
+
+.map {
+  /* float: left; */
+}
+
+.sendbtn {
+  filter: grayscale(100%);
+  transform: rotate(90deg);
+  border-radius: 50%;
+}
+
+/* footer */
+
+footer {
+}
