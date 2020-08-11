@@ -21,8 +21,11 @@
       </nav>
     </header>
     <section class="grass">
-      <h1 id="design">DESIGNING YOUR WORLD</h1>
-      <h2 id="pixel">One pixel at a time.</h2>
+      <img id="grasspic" src="pics/twotrees.jpg" alt="" />
+      <article class="design">
+        <h1 id="design">DESIGNING YOUR WORLD</h1>
+        <h2 id="pixel">One pixel at a time.</h2>
+      </article>
     </section>
     <section class="about col">
       <h3>ABOUT US</h3>
@@ -58,45 +61,64 @@
     </section>
     <section class="portfolio">
       <h4>PORTFOLIO</h4>
+      <img src="pics/musebtn.jpg" alt="arrow up" class="lefttoparr" />
+      <img src="pics/musebtn.jpg" alt="arrow up" class="righttoparr" />
+      <img src="pics/musebtn.jpg" alt="arrow up" class="leftbotarr" />
+      <img src="pics/musebtn.jpg" class="rightbotarr" alt="arrow up" />
       <section class="col">
         <section class="top">
-          <img src="pics/musebtn.jpg" alt="arrow up" class="leftarr" />
           <img class="portimg" src="pics/_0000_akridge_bcard.jpg" alt="" />
           <img class="portimg" src="pics/_0001_balloon_races.jpg" alt="" />
           <img class="portimg" src="pics/_0002_seminar_flyer.jpg" alt="" />
-          <img class="portimg" src="pics/_0003_eyedr_billboard.jpg" alt="" />
-          <img src="pics/musebtn.jpg" alt="arrow up" class="rightarr" />
+          <img class="rightimg" src="pics/_0003_eyedr_billboard.jpg" alt="" />
         </section>
         <section class="bottom">
-          <img src="pics/musebtn.jpg" alt="arrow up" class="leftarr" />
           <img class="portimg" src="pics/_0004_nerdcamp_logo.jpg" alt="" />
           <img class="portimg" src="pics/_0005_rockout_festival.jpg" alt="" />
           <img class="portimg" src="pics/_0006_history_of_flight.jpg" alt="" />
-          <img class="portimg" src="pics/_0007_welder_poster.jpg" alt="" />
-          <img src="pics/musebtn.jpg" class="rightarr" alt="arrow up" />
+          <img class="rightimg" src="pics/_0007_welder_poster.jpg" alt="" />
         </section>
       </section>
     </section>
     <section class="contact col">
-      <img class="map" src="pics/map.png" alt="" />
-      <h5>CONTACT</h5>
-      <form action="">
-        <input type="text" value="Youre Email Address" />
-        <input type="text" value="Subject of your message" />
-        <input type="text" value="Youre message goes here" />
-        <button>
-          SEND <img src="pics/musebtn.jpg" class="sendbtn" alt="button icon" />
-        </button>
-      </form>
+      <section class="contactleft">
+        <img class="map" src="pics/map.png" alt="Map of Main St" />
+      </section>
+      <section class="contactright">
+        <form action="">
+          <h5>CONTACT US</h5>
+          <textarea
+            cols="70"
+            rows="3"
+            placeholder="Youre Email Address"
+          ></textarea>
+          <textarea
+            cols="70"
+            rows="3"
+            placeholder="Subject of your message"
+          ></textarea>
+          <textarea
+            cols="70"
+            rows="14"
+            placeholder="Youre message goes here..."
+          ></textarea>
+          <button class="send floatright">
+            SEND
+            <img src="pics/grnarr.jpg" class="sendbtn" alt="button icon" />
+          </button>
+        </form>
+      </section>
     </section>
-    <footer>
-      <img src="" alt="Facebook logo" />
-      <img src="" alt="Twitter logo" />
-      <img src="" alt="Google Plus logo" />
-      <img src="" alt="Pinterest logo" />
-      <img src="" alt="basketball? logo" />
-      <p>Back to top</p>
-      <img src="pics/musebtn.jpg" alt="arrow up" />
+    <footer class="col">
+      <img class="logo fb" src="pics/face" alt="Facebook logo" />
+      <img class="logo" src="pics/twit" alt="Twitter logo" />
+      <img class="logo" src="pics/goog.png" alt="Google Plus logo" />
+      <img class="logo" src="pics/pint" alt="Pinterest logo" />
+      <img class="logo" src="pics/dribble.png" alt="dribble logo" />
+      <article class="floatright">
+        <p>Back to top</p>
+        <img src="pics/musebtn.jpg" alt="arrow up" />
+      </article>
     </footer>
   </body>
 </html>
